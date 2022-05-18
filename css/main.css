@@ -24,7 +24,7 @@ body {
        black 100%
     );
     
-    background-image: url('/assets/images/background-sky.jpg');
+    background-image: url('../assets/images/background-sky.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;     
