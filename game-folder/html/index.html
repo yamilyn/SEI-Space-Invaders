@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="/game-folder/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+</head>
+<body>
+    <h1 ID="title-game">Space Invaders</h1>
+
+<!-- Restart button and instructions to the player -->
+
+    <div class="app-container text-white">
+        <div id="left-side">
+            <div id="start-game">
+                <h5>Start New Game</h2>
+                <button id="restart-game-btn" type="button" class="btn btn-warning btn-lg">Click to Restart</button>
+            </div>
+        
+            <div id="instruction">
+                <h5>Instructions</h5>
+                <ul>
+                    <li>Press arrow to move left and right.</li>
+                    <li>Press space bar to shoot.</li>
+                </ul>
+            </div>
+        </div>
+
+<!-- Game canvas -->
+
+        <div class="game-container">
+            <canvas id="game"></canvas>
+        </div>
+
+<!-- Scoring leaderboard -->
+
+        <div id="right-side">
+            <h5>Points</h5>
+            <div id="rectangle-score">
+                <div id="draw-score"></div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Bootstrap footer -->
+        
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="https://yamilycodes.com" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/in/yamilybenigni/" class="nav-link px-2 text-muted">Linkedin</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Arcade - Space Invaders | yamilycodes.com</p>
+  </footer>
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="module" src="/game-folder/js/main.js"></script>
+</body>
+</html>

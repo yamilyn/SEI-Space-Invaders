@@ -1,0 +1,122 @@
+canvas {
+    margin: 40px 25px 25px 25px;
+    box-shadow: black 20px 10px 50px;
+}
+
+#title-game {
+    margin-top: 5%;
+    margin-bottom: 10px;
+    font-size: 3.0em;
+    font-family:"Press Start 2P", 'Helvetica', 'sans-serif';
+    color: #ffffff;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background: linear-gradient(
+       0deg,
+       grey, 0%
+       black 100%
+    );
+    
+    background-image: url('/game-folder/assets/images/background-sky.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;     
+}
+
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.game-container {
+    width: 60%;
+    text-align: center;
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#start-game {
+    display: none;
+    text-align: center;
+}
+
+#instruction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#rectangle-score {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(93, 10, 103);
+    text-align: center;
+    color:white;
+    font-weight: 800;
+    font-size: 22px;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    border: 5px solid #221237;
+    border-radius: 8px;
+    padding: 28px;
+}
+
+@media only screen and (max-width: 1185px) {
+    #title-game {
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .app-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .game-container {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    
+    #left-side {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
+    #right-side {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    #rectangle-score {
+        height: 100px;
+        width: 380px;
+        
+    }
+        
+  }
