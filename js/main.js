@@ -11,7 +11,7 @@ canvas.height = 600;
 
   
 const background = new Image();
-background.src = '/assets/images/space.png';
+background.src = './assets/images/space.png';
 
 const scores = new Score(50,'draw-score');
 const bulletsMotion = new BulletsMotion(canvas, 10, "#F85E63", true, scores);

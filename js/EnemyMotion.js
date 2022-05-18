@@ -28,7 +28,7 @@ export default class EnemyMotion {
         this.canvas = canvas;
         this.enemyBullets = enemyBullets;
         this.bulletsMotion = bulletsMotion;
-        this.enemySound = new Audio("/assets/sounds/enemy-death.wav");
+        this.enemySound = new Audio("./assets/sounds/enemy-death.wav");
         this.enemySound.volume = 0.4;
         this.createEnemies();
     }
