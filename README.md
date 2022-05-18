@@ -106,7 +106,7 @@ I used the code below to generate the number of the enemies in order to show on 
 This code is in the ***Enemy.js*** class and imported into the class ***EnemyMotion.js***
 ```
 this.image = new Image()
-        this.image.src = `/game-folder/assets/images/enemy${imageNumber}.png`;
+        this.image.src = `/assets/images/enemy${imageNumber}.png`;
 ```
 
 #### Bug detected and solution:

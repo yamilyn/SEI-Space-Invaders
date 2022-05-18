@@ -11,7 +11,7 @@ export default class BulletsMotion {
         this.soundOn = soundOn;
         this.score = score;
 
-        this.shootSound = new Audio("/game-folder/assets/sounds/shoot.wav");
+        this.shootSound = new Audio("/assets/sounds/shoot.wav");
         this.shootSound.volume = 0.4;
     }
 

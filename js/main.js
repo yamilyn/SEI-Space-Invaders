@@ -11,7 +11,7 @@ canvas.height = 600;
 
   
 const background = new Image();
-background.src = '/game-folder/assets/images/space.png';
+background.src = '/assets/images/space.png';
 
 const scores = new Score(50,'draw-score');
 const bulletsMotion = new BulletsMotion(canvas, 10, "#F85E63", true, scores);
@@ -20,7 +20,7 @@ const enemyMotion = new EnemyMotion(canvas, enemyBullets, bulletsMotion);
 const player = new Player(canvas, 3, bulletsMotion);
 
 let gameOver = false;
-let win = false;
+let win = false; 
 
 
 // ----- Functions  ----- //
