@@ -10,6 +10,13 @@ After searching for arcade games options to develop, I decided to go with Space 
 #### Win
 ![Space Invaders Screenshot Won](/big-idea/space-invaders-screenshot-won.png)
 
+## Play the game
+[Clique here](https://yamilyn.github.io/SEI-Space-Invaders/) to see the game in action.
+
+### Instructions
+* Press the ***arrow keys*** ```left``` or ```right``` to move the ship.
+* Press ```space bar``` to shoot.
+
 ## Big idea
 ### Concept Wireframes
 ![Wireframe - Concept](/big-idea/Page-01-game-project-wireframe.jpg)
@@ -161,7 +168,10 @@ The initial plan was to have a level up function, however I decided to leave onl
 4. Apply more velocity for next levels.
 5. More powerful different enemies, e.g.: some needs 3 shoots to die.
 
-## Contact
+## Reference
+[MDN Game development](https://developer.mozilla.org/en-US/docs/Games)
+
+## Connect
 
 Linkedin - [https://www.linkedin.com/in/yamilybenigni/](https://www.linkedin.com/in/yamilybenigni/)
 
