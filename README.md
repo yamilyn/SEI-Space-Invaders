@@ -46,6 +46,7 @@ After searching for arcade games options to develop, I decided to go with Space 
 * Figma
 * VSCode
 * Google fonts
+* Adobe CC
 
 ## Development
 ### Day 1
@@ -161,7 +162,7 @@ This was quite challenging to align the 2D axis to identify the collision for **
 ## Parked "nice to have" function
 The initial plan was to have a level up function, however I decided to leave only a restart button for now.
 
-## "Nice to have" future integrations
+## "Nice to have" future iterations
 1. For each type of enemy apply a different score point.
 2. Apply 'lives' for the player, so the player can lose after hit by three enemy's bullets.
 3. Insert loops of enemies to show, so more enemies would appear automatically on top instead of finishing the game.
