@@ -1,8 +1,8 @@
-# Project - Space Invaders - Game Dev
-First game development for the General Assembly Software Engineering Immersive course.
+# Project - 👾 Space Invaders - Game Dev
+Solo project (4 days) game developed for the General Assembly - Software Engineering Immersive course.
 
 ## Introduction
-After searching for arcade games options to develop, I decided to go with Space Invaders, a retro game inspired in The War of the Worlds and still very popular. 
+After searching for arcade games options to develop, I decided to go with Space Invaders, a retro game inspired by The War of the Worlds and still very popular. 
 
 #### In action
 ![Space Invaders Game Dev](/big-idea/space-invaders-screenshot.png)
@@ -15,7 +15,7 @@ After searching for arcade games options to develop, I decided to go with Space 
 
 ### Instructions
 * Press the ***arrow keys*** ```left``` or ```right``` to move the ship.
-* Press ```space bar``` to shoot.
+* Press ```spacebar``` to shoot.
 
 ## Big idea
 ### Concept Wireframes
@@ -51,7 +51,7 @@ After searching for arcade games options to develop, I decided to go with Space 
 ## Development
 ### Day 1
 **Planning:** Firstly, I outlined the basic functions and features for the game according to the user stories, this included.
-According to the wireframes presented, this features included: a start button that has later been changed, instructions for the player, a score board to show the points and level.
+According to the wireframes presented, these features included: a start button that has later been changed, instructions for the player, a scoreboard to show the points and level.
 The type of game is 2D.
 
 #### 1. The play area: 
@@ -65,38 +65,38 @@ The type of game is 2D.
 * Background: sky space.
 
 #### 3. Winner decision:
-* Player fires bullets and hit all enemies (**player wins**).
-* Enemy fire a single bullet and hit the player (**enemy wins**).
-* Enemy collide with player (**enemy wins**).
-* Enemy cross the bottom border (**enemy wins**).
+* Player fires bullets and hits all enemies (**player wins**).
+* Enemies fire a single bullet and hit the player (**enemy wins**).
+* Enemies collide with players (**enemy wins**).
+* Enemies cross the bottom border (**enemy wins**).
 
 #### 4. Score:
-For every bullet hit on a enemy, the player receives **50** points.
+For every bullet hit on an enemy, the player receives **50** points.
 
 #### 5. Methodology approach:
 I used this project to explore new concepts in game development using JavaScript. For this I have searched for examples, tutorials and also contacted experienced developers.
 
 #### Initial coding:
-The JavaScript project has been divided into 'classes' in order to prevent conflicted code and apply more organisation. There are 7 classes:
+The JavaScript project has been divided into `classes` in order to prevent conflicted code and apply more organisation. There are 7 classes:
 
-1. ```Player```: Functions of the player, size and 'keydown' and 'keyup' ```.addEventListener``` to move the player.
+1. ```Player```: Functions of the player, size and `keydown` and `keyup` ```.addEventListener``` to move the player.
 2. ```MovingDirection```: For the enemy moving down the screen.
 3. ```Enemy```: For the enemy images, size and collision.
-4. ```EnemyMotion```: Functions for the behavior of the enemy, fire bullets, move down and velocity.
+4. ```EnemyMotion```: Functions for the behaviour of the enemy, fire bullets, move down and velocity.
 5. ```Bullet```: Determine bullet for the player, size, quantity, velocity and collision with enemy.
-6. ```BulletMotion```: Functions regarding to the player's bullet, shoot sound, collision detected with enemy for scoring.
-7. ```Score```: Regarding the score for the player, to be given when the player bullet collide with the enemy.
+6. ```BulletMotion```: Functions regarding the player's bullet, shoot sound, collision detected with enemy for scoring.
+7. ```Score```: Regarding the score for the player, to be given when the player bullet collides with the enemy.
 
 ### Day 2
 1. Committed the code for the enemy moves.
 2. Committed the code for the player moves.
 3. Committed the code for the action scene (hits, bullets motion and sounds).
 4. Integrate a button from Bootstrap to RESTART the game.
-5. Integrated a message to show if player wins or lose.
+5. Integrated a message to show if a player wins or loses.
 6. Integrated the score points to show on HTML.
 
 #### Enemy decision and map
-I have used an array of arrays to draw an enemy map for the canvas. Every enemy has a number which shows on the screen according to the map, the enemy numbered 0 would show and empty space.
+I have used an array of arrays to draw an enemy map for the canvas. Every enemy has a number which shows on the screen according to the map, the enemy numbered 0 would show an empty space.
 
 This code is in the class ***EnemyMotion.js*** and imported into the ***main.js***.
 ```
@@ -134,7 +134,7 @@ While implementing the start button, I detected that the ```<canvas>``` of the g
 ```
 
 #### Solution:
-As a **solution** I decided to change the button for a **restart** instead, that means, when the user enter the page first time, it will start the game automatically. Once the player loses or wins, then the button will show for the user to **restart** the game by clicking it and reloading the page.
+As a **solution** I decided to change the button for a **restart** instead, that means, when the user enters the page for the first time, it will start the game automatically. Once the player loses or wins, then the button will show for the user to **restart** the game by clicking it and reloading the page.
 
 ```
 $("#start-game").show();
@@ -149,12 +149,12 @@ It was a DRY approach and easier to apply.
 1. Tested the game.
 2. Fixed bugs.
 3. Added responsive layout.
-4. Styled the game with color and background.
+4. Styled the game with colour and background.
 
 #### Bug detected
-The layout was not responsive, the score board was coming in front of the game canvas.
+The layout was not responsive, the scoreboard was coming in front of the game canvas.
 
-## Favorite function
+## Favourite function
 
 #### Collision detection {[mdn](https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection)}
 This was quite challenging to align the 2D axis to identify the collision for **enemies, player, bullets and border**.
@@ -164,17 +164,17 @@ The initial plan was to have a level up function, however I decided to leave onl
 
 ## "Nice to have" future iterations
 1. For each type of enemy apply a different score point.
-2. Apply 'lives' for the player, so the player can lose after hit by three enemy's bullets.
+2. Apply 'lives' for the player, so the player can lose after being hit by three enemy's bullets.
 3. Insert loops of enemies to show, so more enemies would appear automatically on top instead of finishing the game.
 4. Apply more velocity for next levels.
-5. More powerful different enemies, e.g.: some needs 3 shoots to die.
+5. More powerful different enemies, e.g.: Some need 3 shoots to die.
 
 ## Reference
 [MDN Game development](https://developer.mozilla.org/en-US/docs/Games)
 
 ## Connect
 
-Linkedin - [https://www.linkedin.com/in/yamilybenigni/](https://www.linkedin.com/in/yamilybenigni/)
+Yamily Benigni - [Linkedin](https://www.linkedin.com/in/yamilybenigni/) | [Portfolio](https://yamilycodes.com)
 
 
 
