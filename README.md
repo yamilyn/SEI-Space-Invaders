@@ -1,6 +1,8 @@
 # Project - 👾 Space Invaders - Game Dev
 Solo project (4 days) game developed for the General Assembly - Software Engineering Immersive course.
 
+## README by Yamily Benigni - [Linkedin](https://www.linkedin.com/in/yamilybenigni/) | [Portfolio](https://yamilycodes.com)
+
 ## Introduction
 After searching for arcade games options to develop, I decided to go with Space Invaders, a retro game inspired by The War of the Worlds and still very popular. 
 
@@ -11,27 +13,27 @@ After searching for arcade games options to develop, I decided to go with Space 
 ![Space Invaders Screenshot Won](/big-idea/space-invaders-screenshot-won.png)
 
 ## Play the game
-[Clique here](https://yamilyn.github.io/SEI-Space-Invaders/) to see the game in action.
+[Click here](https://yamilyn.github.io/SEI-Space-Invaders/) to see the game in action.
 
 ### Instructions
 * Press the ***arrow keys*** ```left``` or ```right``` to move the ship.
 * Press ```spacebar``` to shoot.
 
-## Big idea
-### Concept Wireframes
+## Development planning
+### Wireframes
 ![Wireframe - Concept](/big-idea/Page-01-game-project-wireframe.jpg)
 ![Wireframe - Page 2 - Game over](/big-idea/Page-02-game-project-wireframe.jpg)
 
-### Use Stories:
+### User Stories:
 
 #### As a game player:
-* I want to find a quick instruction for the game.
-* I want to find a start button.
+* I want to easily find the instructions for the game.
+* I want to find the start button.
 * I want to find a FAQ menu with frequently answered questions.
 * I want to be able to play by using my keyboard.
 * I want to find a share button to share with my friends.
 * I want to see my earned points.
-* I want to be able to level up to the game.
+* I want to be able to level up in the game.
 
 
 ## Technologies Used
@@ -50,9 +52,12 @@ After searching for arcade games options to develop, I decided to go with Space 
 
 ## Development
 ### Day 1
-**Planning:** Firstly, I outlined the basic functions and features for the game according to the user stories, this included.
-According to the wireframes presented, these features included: a start button that has later been changed, instructions for the player, a scoreboard to show the points and level.
+**Planning:** Planning: Firstly, I outlined the basic functions and features for the game according to the user stories. 
+
+I also followed the wireframes presented, that shows the starting button, instructions for the player and the scoreboard. 
+
 The type of game is 2D.
+
 
 #### 1. The play area: 
 * Made using the HTML tag ```<canvas>```.
@@ -77,7 +82,7 @@ For every bullet hit on an enemy, the player receives **50** points.
 I used this project to explore new concepts in game development using JavaScript. For this I have searched for examples, tutorials and also contacted experienced developers.
 
 #### Initial coding:
-The JavaScript project has been divided into `classes` in order to prevent conflicted code and apply more organisation. There are 7 classes:
+The JavaScript project has been divided into `classes` in order to prevent conflicted code and apply more organisation. There are the classes:
 
 1. ```Player```: Functions of the player, size and `keydown` and `keyup` ```.addEventListener``` to move the player.
 2. ```MovingDirection```: For the enemy moving down the screen.
@@ -154,6 +159,11 @@ It was a DRY approach and easier to apply.
 #### Bug detected
 The layout was not responsive, the scoreboard was coming in front of the game canvas.
 
+I tried to implement a responsive design, however I was already within the deadline and I had to pause the implementation.
+
+The game is not fully responsive at the moment, but this is noted to be implemented as a future enhancement.
+
+
 ## Favourite function
 
 #### Collision detection {[mdn](https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection)}
@@ -168,6 +178,17 @@ The initial plan was to have a level up function, however I decided to leave onl
 3. Insert loops of enemies to show, so more enemies would appear automatically on top instead of finishing the game.
 4. Apply more velocity for next levels.
 5. More powerful different enemies, e.g.: Some need 3 shoots to die.
+
+## Challenges 
+The main challenge was to decide the development process, my first decision was to use one `main.js` file, but as I started developing I also realised that the code would be too long and confusing.
+
+After I did some research, I decided to implement classes while importing and dividing the code into smaller parts.
+
+## Wins
+I had the opportunity to implement a project from concept to completion, while improving my Web development skills. I enjoy applying styling as well as coding the main functions to make the game fully working.
+
+Although it was a solo project, I worked with time management in mind in order to achieve the deadline.
+
 
 ## Reference
 [MDN Game development](https://developer.mozilla.org/en-US/docs/Games)
