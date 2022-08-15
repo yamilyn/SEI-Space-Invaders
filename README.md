@@ -1,9 +1,11 @@
 # Project - 👾 Space Invaders - Game Dev
 Solo project (4 days) game developed for the General Assembly - Software Engineering Immersive course.
 
-## README by Yamily Benigni - [Linkedin](https://www.linkedin.com/in/yamilybenigni/) | [Portfolio](https://yamilycodes.com)
+### README by Yamily Benigni - [Linkedin](https://www.linkedin.com/in/yamilybenigni/) | [Portfolio](https://yamilycodes.com)
 
-## Introduction
+***
+
+### Introduction
 After searching for arcade games options to develop, I decided to go with Space Invaders, a retro game inspired by The War of the Worlds and still very popular. 
 
 #### In action
@@ -12,31 +14,38 @@ After searching for arcade games options to develop, I decided to go with Space 
 #### Win
 ![Space Invaders Screenshot Won](/big-idea/space-invaders-screenshot-won.png)
 
-## Play the game
+***
+
+### Play the game
 [Click here](https://yamilyn.github.io/SEI-Space-Invaders/) to see the game in action.
 
-### Instructions
+#### Instructions
 * Press the ***arrow keys*** ```left``` or ```right``` to move the ship.
 * Press ```spacebar``` to shoot.
 
-## Development planning
+***
+
 ### Wireframes
 ![Wireframe - Concept](/big-idea/Page-01-game-project-wireframe.jpg)
 ![Wireframe - Page 2 - Game over](/big-idea/Page-02-game-project-wireframe.jpg)
 
+***
+
 ### User Stories:
 
-#### As a game player:
-* I want to easily find the instructions for the game.
-* I want to find the start button.
-* I want to find a FAQ menu with frequently answered questions.
-* I want to be able to play by using my keyboard.
-* I want to find a share button to share with my friends.
-* I want to see my earned points.
-* I want to be able to level up in the game.
+* As a game player:
+    * I want to easily find the instructions for the game.
+    * I want to find the start button.
+    * I want to find a FAQ menu with frequently answered questions.
+    * I want to be able to play by using my keyboard.
+    * I want to find a share button to share with my friends.
+    * I want to see my earned points.
+    * I want to be able to level up in the game.
+
+***
 
 
-## Technologies Used
+### Technologies Used
 * HTML
 * CSS
 * Flexbox
@@ -50,8 +59,9 @@ After searching for arcade games options to develop, I decided to go with Space 
 * Google fonts
 * Adobe CC
 
-## Development
-### Day 1
+***
+
+### Development - Day 1
 **Planning:** Planning: Firstly, I outlined the basic functions and features for the game according to the user stories. 
 
 I also followed the wireframes presented, that shows the starting button, instructions for the player and the scoreboard. 
@@ -163,37 +173,42 @@ I tried to implement a responsive design, however I was already within the deadl
 
 The game is not fully responsive at the moment, but this is noted to be implemented as a future enhancement.
 
+***
 
-## Favourite function
+### Favourite function
 
 #### Collision detection {[mdn](https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection)}
 This was quite challenging to align the 2D axis to identify the collision for **enemies, player, bullets and border**.
 
-## Parked "nice to have" function
+***
+
+### Parked "nice to have" function
 The initial plan was to have a level up function, however I decided to leave only a restart button for now.
 
-## "Nice to have" future iterations
+### "Nice to have" future iterations
 1. For each type of enemy apply a different score point.
 2. Apply 'lives' for the player, so the player can lose after being hit by three enemy's bullets.
 3. Insert loops of enemies to show, so more enemies would appear automatically on top instead of finishing the game.
 4. Apply more velocity for next levels.
 5. More powerful different enemies, e.g.: Some need 3 shoots to die.
 
-## Challenges 
+***
+
+### Challenges 
 The main challenge was to decide the development process, my first decision was to use one `main.js` file, but as I started developing I also realised that the code would be too long and confusing.
 
 After I did some research, I decided to implement classes while importing and dividing the code into smaller parts.
 
-## Wins
+### Wins
 I had the opportunity to implement a project from concept to completion, while improving my Web development skills. I enjoy applying styling as well as coding the main functions to make the game fully working.
 
 Although it was a solo project, I worked with time management in mind in order to achieve the deadline.
 
 
-## Reference
+### Reference
 [MDN Game development](https://developer.mozilla.org/en-US/docs/Games)
 
-## Connect
+### Connect
 
 Yamily Benigni - [Linkedin](https://www.linkedin.com/in/yamilybenigni/) | [Portfolio](https://yamilycodes.com)
 
